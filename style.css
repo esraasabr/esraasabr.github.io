@@ -78,6 +78,8 @@ style>
         video {
             max-width: 100%;         /* Video won't exceed its container's width */
             height: auto;            /* Maintain the aspect ratio */
+            justify-content: center;
+            align-items: center;
         }
     </style>
 
