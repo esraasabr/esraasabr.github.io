@@ -65,6 +65,22 @@ p {
     margin-left: 60px; /* Adds 30 pixels of space outside the left side */
 }
 
+style>
+        /* Centering the video */
+        .video-container {
+            display: flex;
+            justify-content: center; /* Horizontally centers the video */
+            align-items: center;     /* Vertically centers the video */
+            height: 100vh;           /* Optional: takes full viewport height */
+        }
+
+        /* Optional: You can set the video width to auto to adjust it proportionally */
+        video {
+            max-width: 100%;         /* Video won't exceed its container's width */
+            height: auto;            /* Maintain the aspect ratio */
+        }
+    </style>
+
 /* nav bar */
 .navbar {
     background: linear-gradient(180deg, #8cd0b7, #bce7c6);
